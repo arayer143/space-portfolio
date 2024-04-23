@@ -24,13 +24,13 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+           Developer Portfolio
           </h1>
         </motion.div>
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-3 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
             Hello, Im
@@ -46,8 +46,8 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website
-          development. Check out my projects and skills.
+          I&apos;m a Full Stack Developer with experience in Website
+          development, SEO and Deployment. Check out my projects and skills.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
@@ -57,17 +57,7 @@ const HeroContent = () => {
         </motion.a>
       </div>
 
-      <motion.div
-        variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
-      >
-        <Image
-          src="/mainIconsdark.svg"
-          alt="work icons"
-          height={650}
-          width={650}
-        />
-      </motion.div>
+   
     </motion.div>
   );
 };
