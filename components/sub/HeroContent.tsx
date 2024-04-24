@@ -21,7 +21,7 @@ const HeroContent = () => {
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+          <SparklesIcon className="text-[#5b3cb9] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
            Developer Portfolio
           </h1>
@@ -29,7 +29,7 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-3 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-3 mt-6 text-6xl font-bold  text-white  w-auto h-auto"
         >
           <span>
             Hello, Im
