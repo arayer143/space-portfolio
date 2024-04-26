@@ -1,4 +1,8 @@
-{
+
+import { MetadataRoute } from 'next'
+ 
+export default function manifest(): MetadataRoute.Manifest {
+  return {
     "name": "Alex Rayer Portfolio Website ", 
     "short_name": "Alex Rayer",
     "start_url": "/index.html",
@@ -12,20 +16,7 @@
             "src": "public/glaxy.png",
             "type": "image/png",
             "sizes": "144x144"
-        }
+        },
     ],
-
-    "screenshots" : [
-        {
-          "src": "public/glaxy.png",
-          "sizes": "2500x1500",
-          "type": "image/png",
-          "form_factor": "wide",
-      
-          "label": "Clean Slate Logo"
-        }
-     
-
-    ]
-    
+  }
 }
