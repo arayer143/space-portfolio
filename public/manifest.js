@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     "name": "Alex Rayer Portfolio Website ", 
     "short_name": "Alex Rayer",
-    "start_url": "/index.html",
+    "start_url": "/",
     "description": "Welcome to my portfolio website. It is made with Nextjs and deplyed through vercel",
     "display": "standalone",
     "background-color": "#black",
