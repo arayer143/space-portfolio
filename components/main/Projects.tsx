@@ -20,28 +20,35 @@ const Projects = () => {
           title="Clean Slate Pressure Washing"
           name="Github"
           name2="Live Website"
-          description="Clean Slate is my first website I created for a small business in my area. This site uses the Bootstrap framework with HTML, CSS, JS, & SCSS."
+          description="Clean Slate is my first website I created for a small business in my area."
+          description2="Langages Used: HTML, CSS, JS, SCSS"
+          description3="Frameworks: Bootstrap"
         />
        
         <ProjectCard
           src="/HMW-logo .png"
           href="https://github.com/arayer143/Brunell_Website"
           href2="https://teambrunellfinance.com/"
-          title="TeamBrunellFinace.com"
+          title="Team Brunell Finace"
           name="Github"
           name2="Live Website"
           description="Teambrunellfinace.com is website for a finance company that really knows how to make your money work for you. This site is also made with the Bootstrap framework"
-          
+          description2="Langages Used: HTML, CSS, JS, SCSS, PHP"
+          description3="Frameworks: Bootstrap"
+
         />
         
         <ProjectCard
-          src="/SpaceWebsite.png"
-          href="https://github.com/"
-          href2="https://www.facebook.com/"
-          title="Modern Next.js Portfolio"
+          src="/RayDunn-logo-noBG.png"
+          href="https://github.com/arayer143/RayDunn-Website"
+          href2="https://raydunnsolutions.com/"
+          title="RayDunn Web Solutions"
           name="Github"
           name2="Live Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="RayDunn Web Solutions is the homepage to my web design company I started with a friend of mine"
+          description2="Langages Used: HTML, CSS, JS, SCSS"
+          description3="Frameworks: Bootstrap"
+
         />
       </div>
     </div>

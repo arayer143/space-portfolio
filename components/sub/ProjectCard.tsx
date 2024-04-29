@@ -13,13 +13,15 @@ interface Props {
   src: string;
   title: string;
   description: string;
+  description2: string;
+  description3: string;
   href: string;
   href2: string;
   name: string;
   name2: string;
 }
 
-const ProjectCard = ({ src, title, description, href, href2, name, name2 }: Props) => {
+const ProjectCard = ({ src, title, description, description2, description3, href, href2, name, name2 }: Props) => {
   return (
 
     <motion.div
@@ -38,8 +40,10 @@ const ProjectCard = ({ src, title, description, href, href2, name, name2 }: Prop
       />
 
    
-        <h1 className="text-2xl font-semibold text-white">{title}</h1>
-        <p className="mt-2 text-gray-300">{description}</p>
+        <h1 className="text-xl mt-5 font-semibold text-white text-center">{title}</h1>
+        <p className="mt-2 text-gray-300 text-center">{description}</p>
+        <p className="mt-2 text-gray-300">{description2}</p>
+        <p className="mt-2 text-gray-300 mb-5">{description3}</p>
         
         <motion.a
           variants={slideInFromLeft(1)}
