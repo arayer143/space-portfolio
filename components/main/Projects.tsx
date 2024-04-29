@@ -26,16 +26,20 @@ const Projects = () => {
         <ProjectCard
           src="/CardImage.png"
           href="https://github.com/"
+          href2="https://www.facebook.com/"
+          title="Modern Next.js Portfolio"
           name="Github"
-          title="Interactive Website Cards"
+          name2="facebook"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         
         <ProjectCard
           src="/SpaceWebsite.png"
           href="https://github.com/"
-          title="Space Themed Website"
+          href2="https://www.facebook.com/"
+          title="Modern Next.js Portfolio"
           name="Github"
+          name2="facebook"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
       </div>
