@@ -45,7 +45,7 @@ const Projects = () => {
           title="RayDunn Web Solutions"
           name="Github"
           name2="Live Website"
-          description="RayDunn Web Solutions is the homepage to my web design company I started with a friend of mine"
+          description="RayDunn Web Solutions is the homepage to my web design company I started that is helping three small companies with web design, SEO, and development."
           description2="Langages Used: HTML, CSS, JS, SCSS"
           description3="Frameworks: Bootstrap"
 
