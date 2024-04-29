@@ -12,7 +12,7 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text ">
         My Projects
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-5 px-10 py-2">
+      <div className="h-full w-full flex flex-col md:flex-row gap-1 px-10 py-2">
         <ProjectCard
           src="/cleanslatelogo.png"
           href="https://github.com/arayer143/Clean-Slate-Pressure-Washing-Website"
