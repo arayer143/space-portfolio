@@ -1,13 +1,7 @@
-import React from "react";
-import {
-  RxDiscordLogo,
-  RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
-  RxLinkedinLogo,
-} from "react-icons/rx";
+"use client";
 
-import { FaYoutube } from "react-icons/fa";
+import React from "react";
+import { Icon } from '@iconify/react';
 
 const Footer = () => {
   return (
@@ -17,55 +11,42 @@ const Footer = () => {
                 
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">Community</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Youtube</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Github</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Discord</span>    
-                    </p>
+                    <div className="font-bold text-[16px]">Contact Me</div>
+                 
+                    <div className="flex flex-row items-center mt-3 cursor-pointer">
+                    
+                    <a href="tel:985-869-2356" className="flex items-center button-primary  justify-center px-2 py-2 my-2 rounded-full cursor-pointer  dark:bg-dark-200 dark:bg-black-500"> <Icon className="mr-3" icon="ic:baseline-phone" />
+                        Call Me
+                    </a> 
+
+                    </div>
+
+                    <div className="flex flex-row items-center cursor-pointer">
+                    
+                    <a href="mailto:alexrayer7@gmail.com" className="flex items-center button-primary  justify-center px-4 py-2 my-2  rounded-full cursor-pointer  dark:bg-dark-200 dark:bg-black-500"> <Icon className="mr-3" icon="ic:baseline-email" />
+                        Email
+                    </a> 
+
+                    </div>
+
+
+                    <div className="flex flex-row items-center cursor-pointer">
+                    
+                    <a href="https://www.linkedin.com/in/alex-rayer/" className="flex items-center button-primary  justify-center px-2 py-2 my-2 rounded-full cursor-pointer  dark:bg-dark-200 dark:bg-black-500"> <Icon className="mr-3" icon="mdi:linkedin" />
+                        Linkedin
+                    </a> 
+
+                    </div>
+               
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Social Media</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Instagram</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Twitter</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Linkedin</span>    
-                    </p>
+                
+             
                 </div>
-                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">About</div>
-                   <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                     
-                        <span className="text-[15px] ml-[6px]">Become Sponsor</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                      
-                        <span className="text-[15px] ml-[6px]">Learning about me</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                  
-                        <span className="text-[15px] ml-[6px]">mifwebchain@gmail.com</span>    
-                    </p>
-                </div>
+
             </div>
 
-            <div className="mb-[20px] text-[15px] text-center">
-                &copy; WebChain Dev 2023 Inc. All rights reserved
-            </div>
         </div>
     </div>
   )

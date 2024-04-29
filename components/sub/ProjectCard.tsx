@@ -13,7 +13,6 @@ interface Props {
   src: string;
   title: string;
   description: string;
-
   href: string;
   href2: string;
   name: string;
@@ -44,18 +43,18 @@ const ProjectCard = ({ src, title, description, href, href2, name, name2 }: Prop
         
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white  cursor-pointer rounded-lg max-w-[50px]"
+          className="py-2 mt-2 button-primary items-center text-center text-white cursor-pointer rounded-lg "
         >
  
 
-      <a href={href} className="flex items-center button-primary justify-center py-1 my-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"> <Icon className="mr-3" icon="feather:github" />
+      <a href={href} className="flex items-center button-primary  justify-center py-1 my-2 mt-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"> <Icon className="mr-3" icon="feather:github" />
         
         {name}
       </a>
    
  
     
-      <a href={href2} className="flex items-center button-primary  justify-center px-2 py-1 my-2 rounded-full cursor-pointer  dark:bg-dark-200 dark:bg-black-500"> <Icon className="mr-3" icon="iconoir:internet" />
+      <a href={href2} className="flex items-center button-primary  justify-center px-2 py-1 mt-2 my-2 rounded-full cursor-pointer  dark:bg-dark-200 dark:bg-black-500"> <Icon className="mr-3" icon="iconoir:internet" />
 
         {name2}
       </a>
