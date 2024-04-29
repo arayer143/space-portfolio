@@ -53,11 +53,10 @@ const HeroContent = () => {
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
  
-      {/* Resume */}
       <a
         href="/Resume.pdf"
         download="Resume.pdf"
-        className="flex items-center justify-center px-2 py-1 my-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
+        className="flex items-center justify-center px-2 py-1 my-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500 "
       >
 
         <span>Download Resume</span>

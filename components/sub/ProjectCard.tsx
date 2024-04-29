@@ -1,15 +1,32 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
-import Link from 'next/link'
+import { motion } from "framer-motion";
+import {
+  slideInFromLeft,
+} from "@/utils/motion";
+
 
 interface Props {
   src: string;
   title: string;
   description: string;
+  href: string;
+  href2: string;
+  name: string;
+  name2: string;
 }
 
-const ProjectCard = ({ src, title, description }: Props) => {
+const ProjectCard = ({ src, title, description, href, href2, name, name2 }: Props) => {
   return (
+
+    <motion.div
+    initial="hidden"
+    animate="visible"
+    className="flex flex-row items-center justify-center px-5 mt-40  z-[20]"
+  >
+
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
       <Image
         src={src}
@@ -19,14 +36,35 @@ const ProjectCard = ({ src, title, description }: Props) => {
         className="w-full object-contain"
       />
 
-      <div className="relative p-4">
+   
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
         <p className="mt-2 text-gray-300">{description}</p>
-        <Link href="/dashboard" replace>
-    Github
-    </Link>
+        
+        <motion.a
+          variants={slideInFromLeft(1)}
+          className="py-2 button-primary text-center text-white  cursor-pointer rounded-lg max-w-[50px]"
+        >
+ 
+  
+      <a href={href} className="flex items-center button-primary justify-center px-2 py-1 my-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500">
+        
+        {name}
+      </a>
+   
+ 
+    
+      <a href={href2} className="flex items-center button-primary  justify-center px-2 py-1 my-2 rounded-full cursor-pointer  dark:bg-dark-200 dark:bg-black-500">
+
+        {name2}
+      </a>
+      
+        </motion.a>
+
+      
       </div>
-    </div>
+
+  
+      </motion.div>
   );
 };
 
