@@ -14,22 +14,27 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+
+      className=" items-center justify-center text-center mt-40"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+  
+
+
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+          className="Welcome-box py-[8px] px-[57px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#5b3cb9] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">
+          <h1 className="Welcome-text text-center text-[13px]">
            Developer Portfolio
           </h1>
         </motion.div>
 
+
+
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-3 mt-6 text-6xl font-bold  text-white  w-auto h-auto"
+          className=" mt-6 text-5xl font-bold  text-white text-center "
         >
           <span>
             Hello, Im
@@ -39,18 +44,29 @@ const HeroContent = () => {
             </span>
            
           </span>
-        </motion.div>
 
-        <motion.p
+
+          <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-lg text-gray-400 mt-5 text-center align-center "
         >
           I&apos;m a Full Stack Developer with experience in Website
           development, SEO and Deployment. Check out my projects and skills.
         </motion.p>
+
+
+        </motion.div>
+
+
+
+        <motion.div
+        variants={slideInFromLeft(0.5)}
+          className=" mt-6 font-bold  text-white text-center ">
+
+    
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-1 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
  
       <a
@@ -61,8 +77,45 @@ const HeroContent = () => {
 
         <span>Download Resume</span>
       </a>
+
+
+      
         </motion.a>
-      </div>
+
+        <motion.a
+          variants={slideInFromLeft(1)}
+          className="py-1 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+        >
+ 
+      <a
+        href="mailto:alexrayer7@gmail.com"
+    
+        className="flex items-center justify-center px-1 py-1 my-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500 "
+      >
+
+        <span>Email Me</span>
+      </a>
+      
+        </motion.a>
+
+        <motion.a
+          variants={slideInFromLeft(1)}
+          className="py-1 button-primary text-center text-white cursor-pointer rounded-lg max-w-[50px]"
+        >
+ 
+      <a
+        href="mailto:alexrayer7@gmail.com"
+    
+        className="flex items-center justify-center px-1 py-1 my-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500 "
+      >
+
+      
+      </a>
+      
+        </motion.a>
+        </motion.div>
+
+   
 
    
     </motion.div>
