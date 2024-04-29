@@ -30,7 +30,7 @@ const Projects = () => {
           title="TeamBrunellFinace.com"
           name="Github"
           name2="Live Website"
-          description="Teambrunellfinace.com is a website for a finance company that really knows how to make your money work for you. This site is also made with the Bootstrap framework"
+          description="Teambrunellfinace.com is website for a finance company that really knows how to make your money work for you. This site is also made with the Bootstrap framework"
           
         />
         
