@@ -27,7 +27,7 @@ const ProjectCard = ({ src, title, description, description2, description3, href
     <motion.div
     initial="hidden"
     animate="visible"
-    className="flex flex-row items-center justify-center px-5 mt-5  z-[20]"
+    className="flex flex-row items-center justify-center px-5 mt-5 z-[20]"
   >
 
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">

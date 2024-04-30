@@ -15,7 +15,7 @@ const EmailSection = () => {
       message: e.target.message.value,
     };
     const JSONdata = JSON.stringify(data);
-    const endpoint = "/components/api/send";
+    const endpoint = "/api/send";
 
     // Form the request for sending data to the server.
     const options = {
@@ -40,14 +40,14 @@ const EmailSection = () => {
   return (
     <section
     
-      className="flex flex-row items-center justify-center px-5 mt-5  z-[20]"
+      className="flex flex-row items-center justify-center mt-5 z-[20]"
     >
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect
         </h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
+        <p className="text-[#ADB7BE] mb-4 max-w-lg">
           {" "}
           I&apos;m currently looking for new opportunities, my inbox is always
           open. Whether you have a question or just want to say hi, I&apos;ll
@@ -63,11 +63,13 @@ const EmailSection = () => {
         </div>
       </div>
       <div>
+
         {emailSubmitted ? (
           <p className="text-green-500 text-sm mt-2">
             Email sent successfully!
           </p>
         ) : (
+
           <form className="flex flex-col" onSubmit={handleSubmit}>
             <div className="mb-6">
               <label
