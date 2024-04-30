@@ -1,4 +1,4 @@
-
+import { NextResponse } from 'next/server'
 import { Resend } from "resend";
 
 const resend = new Resend(re_CKJ8GYqw_mTnU5dBoSTtkRTTcTAsNxSDD);
