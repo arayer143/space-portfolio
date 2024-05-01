@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import { Icon } from '@iconify/react';
 import {
   slideInFromLeft,
   slideInFromTop,
@@ -22,9 +23,9 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[57px] border border-[#7042f88b] opacity-[0.9]"
+          className="Welcome-box py-[8px] px-[57px] border border-[#7042f88b] opacity-[0.9] ml-10"
         >
-          <SparklesIcon className="text-[#5b3cb9] mr-[10px] h-5 w-5" />
+          <SparklesIcon className="text-[#5b3cb9] h-5 w-5 mr-2"  />
           <h1 className="Welcome-text text-center text-[13px]">
            Developer Portfolio
           </h1>
@@ -49,71 +50,54 @@ const HeroContent = () => {
           <motion.p
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 mt-5 text-center align-center "
+
         >
-          I&apos;m a Full Stack Developer with experience in Website
+          <div 
+          className=" align-center">
+          I&apos;m a Web Developer with experience in Website
           development, SEO and Deployment. Check out my projects and skills.
+
+          </div>
         </motion.p>
 
 
         </motion.div>
 
+        <div className="w-full h-full flex flex-col mt-10 text-white items-center justify-around flex-wrap z-[20]">
+       
+        <a href="tel:985-869-2356" className="flex items-center button-primary justify-center px-2 py-2 my-2 rounded-full cursor-pointer"> <Icon className="mr-3" icon="ic:baseline-phone" />
+                        Call Me
+                    </a> 
+
+                  
+
+               
+                    
+                    <a href="mailto:alexrayer7@gmail.com" className="flex items-center button-primary justify-center px-4 py-2 my-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"> <Icon className="mr-3" icon="ic:baseline-email" />
+                        Email
+                    </a> 
 
 
-        <motion.div
-        variants={slideInFromLeft(0.5)}
-          className=" mt-6 font-bold  text-white text-center ">
 
-    
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-1 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
- 
-      <a
-        href="public/Resume.pdf"
-        download="Resume.pdf"
-        className="flex items-center justify-center px-2 py-1 my-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500 "
-      >
-
-        <span>Download Resume</span>
-      </a>
+                    
+                    <a href="https://www.linkedin.com/in/alex-rayer/" className="flex items-center button-primary justify-center px-2 py-2 my-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"> <Icon className="mr-3" icon="mdi:linkedin" />
+                        Linkedin
+                    </a> 
 
 
-      
-        </motion.a>
+                      
+                    <a href="https://www.linkedin.com/in/alex-rayer/" className="flex items-center button-primary justify-center px-2 py-2 my-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"> <Icon className="mr-3" icon="mdi:linkedin" />
+                        Linkedin
+                    </a> 
 
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-1 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
- 
-      <a
-        href="mailto:alexrayer7@gmail.com"
-    
-        className="flex items-center justify-center px-1 py-1 my-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500 "
-      >
 
-        <span>Email Me</span>
-      </a>
-      
-        </motion.a>
 
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-1 button-primary text-center text-white cursor-pointer rounded-lg max-w-[50px]"
-        >
- 
-      <a
-        href="mailto:alexrayer7@gmail.com"
-    
-        className="flex items-center justify-center px-1 py-1 my-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500 "
-      >
+</div>
 
       
-      </a>
-      
-        </motion.a>
-        </motion.div>
+   
+
+
 
    
 

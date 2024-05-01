@@ -57,27 +57,7 @@ export const Skill_data = [
       height: 80,
     },
 
-  
-  ];
-  
-  export const Socials = [
-    {
-      name: "Discord",
-      src: "/instagram.svg",
-    },
-    {
-      name: "Facebook",
-      src: "/facebook.svg",
-    },
-    {
-      name: "Instagram",
-      src: "/discord.svg",
-    },
-  ];
-  
-  
-  
-  export const Backend_skill = [
+
     {
       skill_name: "Visual Studio Code",
       Image: "/vscode.png",
@@ -96,12 +76,7 @@ export const Skill_data = [
       width: 65,
       height: 65,
     },
-    {
-      skill_name: "Node js",
-      Image: "/node-js.png",
-      width: 80,
-      height: 80,
-    },
+
 
 
 
@@ -133,8 +108,27 @@ export const Skill_data = [
     },
   
 
-
+  
   ];
+  
+  export const Socials = [
+    {
+      name: "Discord",
+      src: "/instagram.svg",
+    },
+    {
+      name: "Facebook",
+      src: "/facebook.svg",
+    },
+    {
+      name: "Instagram",
+      src: "/discord.svg",
+    },
+  ];
+  
+  
+  
+
 
   
 

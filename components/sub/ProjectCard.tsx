@@ -45,25 +45,23 @@ const ProjectCard = ({ src, title, description, description2, description3, href
         <p className="mt-2 ml-3 py-2 text-gray-300">{description2}</p>
         <p className="mt-2 ml-3  text-gray-300 mb-5">{description3}</p>
         
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 mt-2 button-primary items-center text-center text-white cursor-pointer rounded-lg "
-        >
  
 
-      <a href={href} className="flex items-center button-primary  justify-center py-1 my-2 mt-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"> <Icon className="mr-3" icon="feather:github" />
+      <a href={href} className="flex items-center button-primary text-white  justify-center py-1 my-2 mt-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"> <Icon className="mr-3" icon="feather:github" />
         
         {name}
       </a>
-   
+
  
     
-      <a href={href2} className="flex items-center button-primary  justify-center px-2 py-1 mt-2 my-2 rounded-full cursor-pointer  dark:bg-dark-200 dark:bg-black-500"> <Icon className="mr-3" icon="iconoir:internet" />
+      <a href={href2} className="flex items-center button-primary text-white justify-center px-2 py-1 mt-2 my-2 rounded-full cursor-pointer  dark:bg-dark-200 dark:bg-black-500"> <Icon className="mr-3" icon="iconoir:internet" />
 
         {name2}
       </a>
+
       
-        </motion.a>
+      
+      
 
       
       </div>
