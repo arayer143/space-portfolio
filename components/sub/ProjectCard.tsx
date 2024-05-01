@@ -42,8 +42,8 @@ const ProjectCard = ({ src, title, description, description2, description3, href
    
         <h1 className="text-xl mt-5 font-semibold text-white text-center">{title}</h1>
         <p className="mt-2 text-gray-300 text-center">{description}</p>
-        <p className="mt-2 text-gray-300">{description2}</p>
-        <p className="mt-2 text-gray-300 mb-5">{description3}</p>
+        <p className="mt-2 ml-3 py-2 text-gray-300">{description2}</p>
+        <p className="mt-2 ml-3  text-gray-300 mb-5">{description3}</p>
         
         <motion.a
           variants={slideInFromLeft(1)}
