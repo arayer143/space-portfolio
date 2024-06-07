@@ -1,10 +1,12 @@
+'use client'
+
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
 const resend = new Resend('re_123456789');
 const fromEmail = process.env.FROM_EMAIL;
 
-export async function POST(req, res) {
+export async function POST(req) {
   const { email, subject, message } = await req.json();
   console.log(email, subject, message);
   try {
