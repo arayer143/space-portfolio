@@ -47,7 +47,7 @@ const ProjectCard = ({ src, title, description, description2, description3, href
         
  
 
-      <a href={href} className="flex items-center button-primary text-white  justify-center py-1 my-2 mt-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"> <Icon className="mr-3" icon="feather:github" />
+      <a href={href} className="flex items-center button-primary text-white justify-center py-1 my-2 mt-2 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"> <Icon className="mr-3" icon="feather:github" />
         
         {name}
       </a>
