@@ -63,3 +63,10 @@ html {
 body::-webkit-scrollbar{
   display:none;
 }
+
+
+
+.Hero{
+  max-width: 400px;
+  justify-content: center;
+}
