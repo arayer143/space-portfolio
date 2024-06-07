@@ -16,7 +16,7 @@ const EmailSection = () => {
       message: e.target.message.value,
     };
     const JSONdata = JSON.stringify(data);
-    const endpoint = "components/api/send/route.js";
+    const endpoint = "/components/api/send/route.js";
 
     // Form the request for sending data to the server.
     const options = {
@@ -84,7 +84,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="your email"
               />
             </div>
             <div className="mb-6">
@@ -110,8 +110,9 @@ const EmailSection = () => {
               >
                 Message
               </label>
-              <textarea
+              <input
                 name="message"
+                type="text"
                 id="message"
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
                 placeholder="Let's talk about..."
