@@ -2,7 +2,6 @@
 import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
-import EmailSection from "@/components/main/EmailSection";
 
 
 
@@ -17,7 +16,7 @@ export default function Home() {
         <Hero />
         <Skills />
         <Projects />
-        <EmailSection />
+       
       
       </div>
     </main>
