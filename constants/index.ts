@@ -100,12 +100,7 @@ export const Skill_data = [
       height: 70,
     },
   
-    {
-      skill_name: "Figma",
-      Image: "/figma.png",
-      width: 50,
-      height: 50,
-    },
+
   
 
   
