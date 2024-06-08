@@ -62,7 +62,9 @@ const HeroContent = () => {
 
         </motion.div>
 
-        <motion.div className="flex mt-10 text-white items-center justify-center text-center">
+        <motion.div 
+        variants={slideInFromLeft(0.5)}
+        className=" flex max-md:flex-col mt-10 text-white items-center justify-center text-center">
 
   
         <a href="tel:985-869-2356" className="flex items-center button-primary justify-center px-2 py-3 my-2 mr-2 rounded-full cursor-pointer z-[20]"> <Icon className="mr-3" icon="ic:baseline-phone" />
