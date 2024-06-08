@@ -34,7 +34,7 @@ const Footer = () => {
              
                     <motion.div 
                     variants={slideInFromLeft(0.8)}
-                    className="flex justify-center rounded-lg ">
+                    className="flex max-md:flex-col justify-center rounded-lg ">
 
                     
              
