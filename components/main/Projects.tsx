@@ -50,6 +50,20 @@ const Projects = () => {
           description3="Frameworks: Bootstrap"
 
         />
+
+          <ProjectCard
+          src="/pristinelogo-no-bg.jpg"
+          href="https://github.com/arayer143/Pristine-Clean-Website"
+          href2="https://pristinecleansoftwash.com"
+          title="Pristine Clean Soft Wash"
+          name="Github"
+          name2="Live Website"
+          description="Pristine Clean Soft Wash is a Website for a Wash Company in Louisiana that is a clone of the Clean Slate Project. "
+          description2="Langages Used: HTML, CSS, JS, SCSS"
+          description3="Frameworks: Bootstrap"
+
+        />
+
       </div>
     </div>
   );
