@@ -25,18 +25,6 @@ const Projects = () => {
           description3="Frameworks: Bootstrap"
         />
        
-        <ProjectCard
-          src="/HMW-logo .png"
-          href="https://github.com/arayer143/Brunell_Website"
-          href2="https://teambrunellfinance.com/"
-          title="Team Brunell Finace"
-          name="Github"
-          name2="Live Website"
-          description="Teambrunellfinace.com is website for a finance company that really knows how to make your money work for you. This site is also made with the Bootstrap framework"
-          description2="Langages Used: HTML, CSS, JS, SCSS, PHP"
-          description3="Frameworks: Bootstrap"
-
-        />
         
         <ProjectCard
           src="/RayDunn-logo-noBG.png"
